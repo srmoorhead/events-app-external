@@ -11,5 +11,5 @@ WORKDIR /app
 RUN npm install
 
 # Start the Express app
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
 
